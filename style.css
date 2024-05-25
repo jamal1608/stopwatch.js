@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(to left, #607d8b, #d459cb );
+display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    height: 100vh;
+}
+
+
+.watch{
+    display: inline-block;
+    min-width: 360px;
+    min-height: 400px;
+    padding: 50px 15px ;
+    background-color: #ffffff;
+    box-shadow: 0 5px 25px #0000004a;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    
+}
+.timer{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    border-radius: 50%;
+    box-shadow: inset;
+    font-size: 38px;
+    margin: 0 auto;
+    background-color: #91e5f0;
+    box-shadow: 0px 20px 35px #0000007a;;
+}
+p{
+    font-weight: 800;
+    color: rgb(243, 240, 240);
+    padding: 30px 0;
+    font-size: 28px;
+    animation-name: stop;
+    animation-duration: 60s;
+    border-radius: 50%;
+    box-shadow:  0 10px 25px #0000004a;
+
+}
+@keyframes stop{
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+      
+}
+#Go{
+    font-size: 81px;
+    color: rgba(42, 42, 252, 0.75);
+    box-shadow: 0 2px 10px #00000002;
+    cursor: pointer;
+    margin-left: 20px;
+}
+#Pause{
+    font-size: 41px;
+    color: rgba(252, 49, 42, 0.75);
+    box-shadow: 0 2px 10px #0000000d;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+#Reset{
+    font-size: 41px;
+    color: rgba(64, 179, 38, 0.75);
+    box-shadow: 0 2px 10px #00000005;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.jamal{
+    color: orangered;
+    font-weight: 800;
+    margin-top: 20px;
+}
